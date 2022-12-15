@@ -315,7 +315,8 @@ def run(
 
     if part is None:
         run_parallel(day, year, 1, stop_when_submitted, n_workers, runs)
-        run_parallel(day, year, 2, stop_when_submitted, n_workers, runs)
+        #run_parallel(day, year, 2, stop_when_submitted, n_workers, runs)
+        1+2
     else:
         if n_workers == 1:
             do_part(0, day, part)
